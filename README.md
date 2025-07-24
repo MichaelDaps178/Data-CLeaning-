@@ -4,11 +4,11 @@ This project is part of the **Data Cleaning in MySQL** tutorial by [Alex the Ana
 
 ---
 
-## 📁 Project Overview
+##  Project Overview
 
 The original dataset contained inconsistent values, missing data, and formatting issues. This project walks through the process of using **MySQL** to clean and prepare the data for analysis.
 
-### ✅ Key Cleaning Steps:
+###  Key Cleaning Steps:
 - Removed duplicate rows
 - Handled `NULL` and blank values
 - Standardized text data (e.g. company names, industry fields)
@@ -22,10 +22,13 @@ The original dataset contained inconsistent values, missing data, and formatting
 - **SQL**
 - **MySQL Workbench**
 - Layoffs dataset (CSV or staging table)
-
+-Window Functions (`ROW_NUMBER()`, `PARTITION BY`)
+- CTEs (Common Table Expressions)
+- JOINS and Self-JOINS
+- Data Standardization and Cleaning Techniques
 ---
 
-## 💡 Sample Query Used
+## Sample Query Used
 
 Here’s an example of a self-join to fill in missing industries based on matching company names:
 
